@@ -8,7 +8,7 @@ import { Image } from '../Image';
 })
 export class ThumbnailsService {
  //baseUrl = 'https://localhost:44380/api/';
- baseUrl = 'https://25knkks2mf.execute-api.us-east-1.amazonaws.com/Prod/api/';
+ baseUrl = '';
   constructor(private http: HttpClient,) { }
 
   upload(image:Image):Observable<any>{
